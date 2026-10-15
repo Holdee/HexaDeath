@@ -1,0 +1,27 @@
+21 05 01 00					"Print '!'"
+46 05 01 00					"Print 'F'"
+46 05 01 00					"Print 'F'"
+4F 05 01 00					"Print 'O'"
+54 05 01 00					"Print 'T'"
+46 05 01 00					"Print 'F'"
+49 05 01 00					"Print 'I'"
+4C 05 01 00					"Print 'L'"
+
+01 11 01 00					"End of loop label"
+00 0E 01 00					"Jump to top of loop label"
+
+0A 05 01 00					"Newline"
+
+00 04 01 00					"Decrement var"
+00 06 01 00					"Print var"
+2D 05 01 00					"Print '-'"
+54 05 01 00					"Print 'T'"
+
+01 01 0F 02 00				"If loopconditional == 1, jump to end of loop label"
+00 2F 08 01 02 01			"If counter var == 2F, set the conditional = 1"
+00 11 01 00					"Top of loop label"
+
+01 01 01 00					"Loop conditional value"
+
+35 02 00 01 01				"Assign counter variable to 5"
+00 01 01 00					"Counter variable"

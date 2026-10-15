@@ -1,0 +1,3 @@
+﻿  Lexer.cpp
+C:\Users\wethe\source\repos\HexaDeath\HexaDeath\Lexer.cpp(7,14): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+  HexaDeath.vcxproj -> C:\Users\wethe\source\repos\HexaDeath\x64\Debug\hxd.exe

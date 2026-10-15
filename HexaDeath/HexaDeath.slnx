@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HexaDeath/HexaDeath.vcxproj" Id="5f5adf87-d479-4e26-bd0c-80107296b86b" />
+</Solution>
